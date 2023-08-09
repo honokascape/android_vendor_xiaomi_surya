@@ -1,7 +1,7 @@
 {
   "config":{
-    "hw_platform": ["MTP", "DAVINCI", "Surf", "POLARIS", "PERSEUS", "AQUILA"],
-    "soc_id": ["291", "246", "305", "321", "365", "365"]
+    "hw_platform": ["IDP"],
+    "soc_id": ["407", "443"]
   },
   "adux1050_0":{
     "owner": "sns_adux1050",
@@ -23,7 +23,7 @@
         }
       }
     },
-    ".custom":{
+	".custom":{
       "owner": "sns_adux1050",
       ".config":{
         "owner": "sns_adux1050",
@@ -31,7 +31,7 @@
           "data": "0x0000"
         },
         "reg_06":{ "type": "flt", "ver": "0",
-          "data": "0x3918"
+          "data": "0x1800"
         },
         "reg_09":{ "type": "flt", "ver": "0",
           "data": "0x0000"
@@ -43,7 +43,7 @@
           "data": "0x0000"
         },
         "reg_0B":{ "type": "flt", "ver": "0",
-          "data": "0x3802"
+          "data": "0x1800"
         },
         "reg_0E":{ "type": "flt", "ver": "0",
           "data": "0x0000"
